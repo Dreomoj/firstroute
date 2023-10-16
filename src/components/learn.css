@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.main{
+    background-color: #F8FAFC;
+}
+
+.container{
+    display: flex;
+    gap: 28px;
+    padding-top: 28px;
+}
+.bannerdiv{
+    width: 753px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #F1F5F9;
+    background: #3E64FF;
+    overflow: hidden;
+}
+.bannerdiv p{
+    z-index: 1;
+}
+.calendar{
+    display: inline-flex;
+    width: 530px;
+height: 611px;
+padding: 30px 24px 30px 33px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid var(--neutral-100, #F1F5F9);
+background: var(--basic-white, #FFF);
+}
+.bannerimg{
+    flex-shrink: 0;
+    background: #3E64FF;
+    border-radius: 12px;
+    z-index: -1;
+}
+.bannertxt{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+color: white;
+padding-top: 27px;
+padding-left: 61px;
+}
+.bannertxt h1{
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+}
+.bannertxt p{
+    font-family: 'Helvetica', sans-serif;
+    color: #E7EFFC;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+.bannertxt button{
+    display: inline-flex;
+height: 36px;
+width: 108px;
+padding: 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+flex-shrink: 0;
+border-radius: 8px;
+border: none;
+background-color: #F5CCCC;
+font-family: 'Inter', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px;
+color: #1E293B;
+}
+.four{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.two{
+    display: flex;
+    gap: 25px;
+}
+.box1{
+    display: flex;
+    gap: 17px;
+height: 89px;
+width: 364px;
+padding: 23px 161px 23px 30px;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+border: 1px solid #F1F5F9;
+background-color: white;
+}
+.boxtxt{
+    display: flex;
+width: 116px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top: 15px;
+/* gap: 3px; */
+}
+.box1 h1{
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+color: #334155;
+}
+.box1 p{
+    font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+color: #64748B;
+width: 116px;
+}
+.bigtwo{
+    display: flex;
+    gap: 25px;
+}
+.bigbox{
+    width: 365px;
+height: 310px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid var(--neutral-100, #F1F5F9);
+background: var(--basic-white, #FFF);
+}
+.bigbox2{
+    width: 365px;
+height: 310px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid var(--neutral-100, #F1F5F9);
+background: var(--basic-white, #FFF);
+}
+.boxhead{
+    display: flex;
+    gap: 83px;
+    padding-top: 23px;
+}
+.dropdate{
+    display: flex;
+width: 90px;
+height: 38px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: #F8FAFC;
+border: 1px solid #F1F5F9;
+}
+.dropdate p{
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right;
+    color: #0F172A;
+    padding-top: 15px;
+}
+
+.bigboxtxt{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 23px;
+}
+.bigboxtxt h1{
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+color: #334155;
+}
+.bigboxp{
+    display: flex;
+    gap: 24px;
+}
+.bigboxsm{
+    height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.bigboxsm p{
+    font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+color: #64748B;
+}
+.dot{
+    width: 7px;
+height: 7px;
+flex-shrink: 0;
+background-color: #3E64FF;
+border-radius: 100%;
+margin-top: -15px;
+}
+.dot2{
+    width: 7px;
+height: 7px;
+flex-shrink: 0;
+background-color: #FEF3C7;
+border-radius: 100%;
+margin-top: -15px;
+}
